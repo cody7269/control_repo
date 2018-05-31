@@ -1,4 +1,4 @@
 class role::db_server {
-  include pofile::db
-  include prfile::base
+  include profile::base
+  include profile::db
 }
